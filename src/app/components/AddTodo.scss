@@ -1,0 +1,55 @@
+$primary-color: #333;
+$font-stack: sans-serif;
+body {
+  font: 100%;
+  color: $primary-color;
+  background-color: #0e143e;
+}
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  position: relative;
+}
+.top {
+  width: 18rem;
+  border-radius: 10px;
+  border: none;
+  height: 3rem;
+  margin-left: 50px;
+  font-size: large;
+}
+.btn {
+  display: flex;
+  height: 3rem;
+  border-radius: 10px;
+  align-items: center;
+  font-size: large;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: white;
+  color: black;
+}
+.todos {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-left: 200px;
+  color: white;
+  
+}
+.todo {
+    margin-top: 50px;
+  width: 500px;
+  position: relative;
+}
+.delete{
+    position:absolute ;
+    justify-content: space-between;
+    margin-left: 100px;
+
+}
